@@ -52,9 +52,12 @@ Stop Time 2023-12-13 21:11:00
 | SecurityIncident         | 196
 | AzureNetworkAnalytics_CL | 1065
 
-## Attack Maps Before Hardening / Security Controls
+## Attack Maps After Hardening / Security Controls
 
-```All map queries actually returned no results due to no instances of malicious activity for the 24 hour period after hardening.```
+![nsg-malicious-allowed-in](https://github.com/tylanc123/Cloud-SOC/assets/153654738/c8386f27-8bbb-4014-9c25-1d0b49da2747>)<br>
+![Linux Syslog Auth Failures](https://github.com/tylanc123/Cloud-SOC/assets/153654738/77801a36-b569-4eff-a7fe-0dd4787dbbe4>)<br>
+![Windows RDP/SMB Auth Failures](<https://github.com/tylanc123/Cloud-SOC/assets/153654738/0f533ee7-fb3e-4aaf-856a-3e622ececdbf>)<br>
+
 
 ## Metrics After Hardening / Security Controls
 
