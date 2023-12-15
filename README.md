@@ -1,5 +1,5 @@
 # Building a SOC + Honeynet in Azure (Live Traffic)
-![Cloud Honeynet / SOC](https://i.imgur.com/ZWxe03e.jpg)
+Cloud Honeynet / SOC ![68747470733a2f2f692e696d6775722e636f6d2f5a5778653033652e6a7067](https://github.com/tylanc123/Cloud-SOC/assets/153654738/c9da5e46-a77b-408d-98f5-0c413455c09c)
 
 ## Introduction
 
@@ -32,9 +32,11 @@ For the "BEFORE" metrics, all resources were originally deployed, exposed to the
 For the "AFTER" metrics, Network Security Groups were hardened by blocking ALL traffic with the exception of my admin workstation, and all other resources were protected by their built-in firewalls as well as Private Endpoint
 
 ## Attack Maps Before Hardening / Security Controls
-![NSG Allowed Inbound Malicious Flows](https://i.imgur.com/1qvswSX.png)<br>
-![Linux Syslog Auth Failures](https://i.imgur.com/G1YgZt6.png)<br>
-![Windows RDP/SMB Auth Failures](https://i.imgur.com/ESr9Dlv.png)<br>
+
+![nsg-malicious-allowed-in](https://github.com/tylanc123/Cloud-SOC/assets/153654738/441d61cc-5643-49f7-86e6-8dcfcc6389eb>)<br>
+![Linux Syslog Auth Failures](https://github.com/tylanc123/Cloud-SOC/assets/153654738/ba1ba890-ce19-4a48-b3ec-4129254a95c3>)<br>
+![Windows RDP/SMB Auth Failures](https://github.com/tylanc123/Cloud-SOC/assets/153654738/ad4a8e55-5568-420b-be6b-1752e0defb2e>)<br>
+
 
 ## Metrics Before Hardening / Security Controls
 
