@@ -68,7 +68,21 @@ Stop Time	2023-12-14 14:27:59
 | Syslog                   | 3403
 | SecurityAlert            | 0
 | SecurityIncident         | 29
-| AzureNetworkAnalytics_CL | 0
+|AzureNetworkAnalytics_CL  | 0
+
+## Results
+
+Change after security environment
+
+| Metric                   | Count     |
+| ------------------------ | --------- |
+| SecurityEvent            | -39.44%   |
+| Syslog                   | -80.51%   |
+| SecurityAlert            | -100.00%  |
+| SecurityIncident         | -85.20%   |
+| AzureNetworkAnalytics_CL | -100.00%  |
+
+
 
 ## Conclusion
 
